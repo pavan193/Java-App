@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My DevOps Web App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">&#9881; DevOps App</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Welcome to My Java Web App</h1>
+    <p>Frontend is live. Database (RDS) comes next.</p>
+    <button id="statusBtn">Check app status</button>
+    <p id="status" class="status"></p>
+  </section>
+
+  <section id="pipeline" class="cards">
+    <h2>CI/CD Pipeline</h2>
+    <div class="grid">
+      <div class="card">GitHub<span>Source code</span></div>
+      <div class="card">Jenkins<span>Build &amp; orchestrate</span></div>
+      <div class="card">SonarQube<span>Code quality</span></div>
+      <div class="card">Trivy<span>Security scan</span></div>
+      <div class="card">Docker + ECR<span>Image &amp; registry</span></div>
+      <div class="card">Kubernetes<span>Deploy</span></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" placeholder="Message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMsg" class="status"></p>
+  </section>
+
+  <footer>&copy; 2026 My DevOps App</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; color: #222; background: #f5f7fa; }
+.navbar { display: flex; justify-content: space-between; align-items: center;
+          padding: 14px 32px; background: #1f2a44; color: #fff; }
+.navbar a { color: #cfd8ee; margin-left: 20px; text-decoration: none; }
+.navbar a:hover { color: #fff; }
+.hero { text-align: center; padding: 80px 20px; background: linear-gradient(135deg,#3a6ea5,#1f2a44); color: #fff; }
+.hero h1 { font-size: 2.2rem; margin-bottom: 10px; }
+button { margin-top: 18px; padding: 10px 22px; border: 0; border-radius: 6px;
+         background: #ff9900; color: #111; font-weight: bold; cursor: pointer; }
+button:hover { background: #ffb23f; }
+.status { margin-top: 12px; font-weight: bold; }
+.cards, .contact { max-width: 900px; margin: 40px auto; padding: 0 20px; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 20px; }
+.card { background: #fff; padding: 22px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.08); font-weight: bold; }
+.card span { display: block; margin-top: 6px; font-weight: normal; color: #666; font-size: .9rem; }
+form { display: flex; flex-direction: column; gap: 10px; max-width: 480px; margin: 20px auto 0; }
+input, textarea { padding: 10px; border: 1px solid #ccd3e0; border-radius: 6px; font-size: 1rem; }
+footer { text-align: center; padding: 20px; color: #777; }
